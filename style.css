@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Poppins", sans-serif; */
+}
+.first-section {
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(235, 217, 217, 0.562);
+}
+.parent {
+  display: flex;
+  margin-left: 5%;
+}
+.child1 {
+  width: 50%;
+  margin-top: 8%;
+}
+.child1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+.child1 p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  text-align: justify;
+}
+.child1 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 20px 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(248, 0, 0);
+}
+.child1 a:hover {
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 5px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  transition: 500ms;
+}
+.child2 {
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.child2 img {
+  width: 100%;
+}
+
+/* Ends of 1st section */
+
+.second-section{
+  background-image: url("images/shapes/Frame\ 58.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 5%;
+  height: 100vh;
+  width: 100%;
+}
+.child3{
+  width: 50%;
+}
+.child3 img{
+  width: auto;
+  margin-top: 200px;
+  margin-left: -80px;
+}
+.child4{
+  width: 50%;
+  margin-top: 15%;
+}
+
+.child4 h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.child4 p{
+  font-weight: 900;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.child4 a{
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 20px 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(248, 0, 0);
+  margin-left: 35%;
+  
+}
+
+.child4 a:hover{
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 5px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  transition: 500ms;
+}
